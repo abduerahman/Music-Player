@@ -1,0 +1,71 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+html{
+  height:100%;
+  background-color: grey;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  height: fit-content;
+  border-radius: 20px;
+  margin-left:35%;
+  margin-top: 8%;
+  padding:30px;
+  background-color: white;
+}
+
+.container p:first-child{
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.container p:last-child{
+  font-size: 15px;
+  text-align: center;
+  color:#cccaca;
+}
+.images{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+img{
+  display: flex;
+  width:250px;
+  height:250px;
+  border-radius: 999px;
+  box-shadow: 0 0 10px 1px black;
+  margin-top:40px;
+  transition: 25s ease;
+}
+.song p{
+  font-size: 20px;
+  border:1px solid white;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+i{
+  font-size:30px;
+  cursor: pointer;
+  padding:10px;
+}
+
+.button{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.song{
+  padding:5px;
+  width:25%;
+}
